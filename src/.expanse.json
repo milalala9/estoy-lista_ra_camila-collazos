@@ -1,0 +1,202 @@
+{
+  "entrySpaceId": "eda2bb65-735b-4728-b82c-a30f5fd66507",
+  "objects": {
+    "695d40a8-cc56-4900-ba01-ad3c5559a394": {
+      "components": {},
+      "geometry": null,
+      "id": "695d40a8-cc56-4900-ba01-ad3c5559a394",
+      "imageTarget": {
+        "name": "WhatsApp_Image_2026-11-20_at_7_20_57_PM_1"
+      },
+      "material": null,
+      "name": "Marcador · WhatsApp_Image_2026-11-20_at_7_20_57_PM_1",
+      "order": 3.5,
+      "parentId": "eda2bb65-735b-4728-b82c-a30f5fd66507",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a529b546-a7d9-4bd9-bb4a-288bc4477b03": {
+      "components": {
+        "40e36794-0665-40f8-9435-c05abad3cd59": {
+          "id": "40e36794-0665-40f8-9435-c05abad3cd59",
+          "name": "inre-gif",
+          "parameters": {
+            "alphaTest": 0
+          }
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.59,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "box",
+        "width": 1,
+        "height": 1,
+        "depth": 1
+      },
+      "id": "a529b546-a7d9-4bd9-bb4a-288bc4477b03",
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/gif_pag_3.gif"
+        },
+        "roughness": 0.85,
+        "metalness": 0,
+        "inreMaterial": "gif_pag_3"
+      },
+      "name": "Cubo",
+      "order": 0.19593904807017204,
+      "parentId": "695d40a8-cc56-4900-ba01-ad3c5559a394",
+      "position": [
+        0,
+        0,
+        0.401
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865475
+      ],
+      "scale": [
+        0.892,
+        0.594,
+        0.596
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "aebe826b-811d-4f0d-b0af-d73c4ed386fa": {
+      "components": {},
+      "geometry": null,
+      "id": "aebe826b-811d-4f0d-b0af-d73c4ed386fa",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Luz ambiental",
+      "order": 1.5,
+      "parentId": "eda2bb65-735b-4728-b82c-a30f5fd66507",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "c07d7793-4959-4c4a-b311-144c945bd42c": {
+      "components": {},
+      "geometry": null,
+      "id": "c07d7793-4959-4c4a-b311-144c945bd42c",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      },
+      "material": null,
+      "name": "Luz direccional",
+      "order": 2.5,
+      "parentId": "eda2bb65-735b-4728-b82c-a30f5fd66507",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "fafaf161-1966-4cbc-a969-17d6d8e0f944": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled",
+          "direction": "back"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "fafaf161-1966-4cbc-a969-17d6d8e0f944",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "eda2bb65-735b-4728-b82c-a30f5fd66507",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "spaces": {
+    "eda2bb65-735b-4728-b82c-a30f5fd66507": {
+      "activeCamera": "fafaf161-1966-4cbc-a969-17d6d8e0f944",
+      "id": "eda2bb65-735b-4728-b82c-a30f5fd66507",
+      "name": "Espacio principal"
+    }
+  }
+}
